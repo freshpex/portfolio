@@ -41,6 +41,15 @@
         integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
         crossorigin="anonymous" />
 
+        <!-- EmailJS SDK before THE other scripts -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function() {
+            emailjs.init({
+                publicKey: "sORcFqmtnWLKiCa2l",
+            });
+        })();
+    </script>
     <!--For Dark/Light mode Toggle-->
     <script src="https://code.iconify.design/1/1.0.4/iconify.min.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap" rel="stylesheet">

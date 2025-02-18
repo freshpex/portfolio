@@ -1,4 +1,3 @@
-
 "use strict";
 // Sweet Alert CDN through JS
 let script = document.createElement("script");
@@ -138,20 +137,19 @@ let footer = $(`
              <div class="form-header">
                 <h6 class="display">Get in Touch</h6>
               </div>
-                <form name="form1" action="https://formcarry.com/s/BywEPAJNb" method="POST" accept-charset="UTF-8" >
-                  <input id="name" type="text" name="name" placeholder="Your Name" required/>
-                  <input id="email" type="email" name="email" placeholder="Email Address" required/>                  
-                  <textarea id="textArea" name="message" placeholder="Type your Message" required></textarea>
-              
-                  <div id="main">
-                    <button id="lnch" type="button" value="Send" >Send</button>
-                    <div id="lnch_btn"><i class="fas fa-space-shuttle"></i></div>
-                  </div>
-                </form>
-              </div>
-            </div>
+              <form id="contact-form">
+                <input type="text" id="name" name="user_name" placeholder="Your Name" required/>
+                <input type="email" id="email" name="user_email" placeholder="Email Address" required/>
+                <textarea id="textArea" name="message" placeholder="Type your Message" required></textarea>
+                <div id="main">
+                  <button id="lnch" type="button">Send</button>
+                  <div id="lnch_btn"><i class="fas fa-space-shuttle"></i></div>
+                </div>
+              </form>
           </div>
         </div>
+      </div>
+    </div>
     </div>
 
 
@@ -424,45 +422,65 @@ $(window).on("load", function () {
 });
 
 //send button animation
+$(function() {
+  // Initialize EmailJS with your public key
+  emailjs.init("sORcFqmtnWLKiCa2l");
 
+  $("#lnch").on("click", function() {
+    // Get form elements
+    const form = document.getElementById('contact-form');
+    const name = $("#name").val();
+    const email = $("#email").val();
+    const message = $("#textArea").val();
+    const emailPattern = /[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?/;
 
-$(function submitAnimation() {
-  const name = document.querySelector("#name")
-  const emailAdress = document.querySelector("#email")
-  const text = document.querySelector("#textArea")
-  const emailPattern = /[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?/;
-
-  $("#lnch").on("click", function () {
-
-    // Check if the name field is empty or contains a number
-    if (name.value == "" || (/\d/.test(name.value))) {
-      swal("Error !","Please enter a valid name !","error");
+    // Validate inputs
+    if (!name || (/\d/.test(name))) {
+      swal("Error!", "Please enter a valid name!", "error");
       return;
     }
-    // Check if the email field is empty or email is not valid ex: test@@email.com
-    else if (emailAdress.value == "" || !(emailPattern.test(emailAdress.value))) {
-      swal("Error !","Please enter a valid email !","error");
+    else if (!email || !(emailPattern.test(email))) {
+      swal("Error!", "Please enter a valid email!", "error");
       return;
     }
-    // Check if the message field is empty
-    else if (text.value == "") {
-      swal("Error !","Please enter a valid message !","error");
+    else if (!message) {
+      swal("Error!", "Please enter a valid message!", "error");
       return;
     }
-    else {
 
-      setTimeout(function () {
-        $("#lnch").addClass("launching").text("Sending");
-        $("#lnch_btn").addClass("launching");
-      }, 0);
-      setTimeout(function () {
-        $("#lnch").addClass("launched").text("SENT");
-        $("#lnch_btn").addClass("launched");
-      }, 1500);
-      // Wait for 2.2 seconds so that the send button animation can be fully played before submitting the form
-      setTimeout(() => {
-        document.querySelector('form').submit();
-      }, 2200);
-    }
+    // Start sending animation
+    $("#lnch").addClass("launching").text("Sending");
+    $("#lnch_btn").addClass("launching");
+
+    // Prepare template parameters
+    const templateParams = {
+      from_name: name,
+      reply_to: email,
+      message: message
+    };
+
+    // Send email using EmailJS
+    emailjs.send(
+      "service_443ptjh",
+      "template_86tztd7",
+      templateParams
+    )
+    .then(
+      function(response) {
+        console.log("SUCCESS!", response.status, response.text);
+        setTimeout(function() {
+          $("#lnch").addClass("launched").text("SENT");
+          $("#lnch_btn").addClass("launched");
+          swal("Success!", "Message sent successfully!", "success");
+          form.reset();
+        }, 1500);
+      },
+      function(error) {
+        console.error("FAILED...", error);
+        $("#lnch").removeClass("launching").text("SEND");
+        $("#lnch_btn").removeClass("launching");
+        swal("Error!", "Failed to send message. Please try again.", "error");
+      }
+    );
   });
 });

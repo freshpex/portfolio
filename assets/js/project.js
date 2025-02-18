@@ -86,30 +86,6 @@ const projects = [
     Githublink: "https://github.com/freshpex/freshpex-airplane",
   },
   {
-    title: "Interactive Rewards Dashboard",
-    cardImage: "assets/images/project-page/p2.png",
-    description: "Dynamic rewards tracking system featuring real-time earnings updates, cashback history, and multiple redemption options.",
-    tagimg: "https://th.bing.com/th/id/OIP.D2T6uVGU3Jp3is8cguPhNwHaFk?w=219&h=180&c=7&r=0&o=5&dpr=1.4&pid=1.7",
-    Previewlink: "https://reward-beryl.vercel.app/",
-    Githublink: "https://github.com/freshpex/Reward",
-  },
-  {
-    title: "Smart Travel Planner Suite",
-    cardImage: "assets/images/project-page/p3.png",
-    description: "Comprehensive travel planning tool integrating multiple APIs for real-time hotel bookings, attraction discovery, and weather forecasting.",
-    tagimg: "https://cdn.iconscout.com/icon/free/png-512/react-1-282599.png",
-    Previewlink: "https://travel-planner-two.vercel.app/",
-    Githublink: "https://github.com/freshpex/Travel-planner",
-  },
-  {
-    title: "AI-Powered Tic Tac Toe",
-    cardImage: "assets/images/project-page/tic-tac-toe.png",
-    description: "Advanced implementation of the classic game using MiniMax Algorithm for unbeatable AI opponent.",
-    tagimg: "https://cdn.iconscout.com/icon/free/png-512/react-1-282599.png",
-    Previewlink: "",
-    Githublink: "https://github.com/freshpex/minimax",
-  },
-  {
     title: "ML Stock Market Predictor",
     cardImage: "https://th.bing.com/th?q=Stock+Market+Line+Graph&w=120&h=120&c=1&rs=1&qlt=90&cb=1&dpr=1.4&pid=InlineBlock&mkt=en-US&cc=US&setlang=en&adlt=moderate&t=1&mw=247",
     description: "Machine learning-powered platform for stock market analysis and prediction using advanced algorithms.",
@@ -164,6 +140,30 @@ const projects = [
     tagimg: "https://www.bing.com/th?id=OIP.sm2bWXumX-ih85YV7pEgYQHaEt&w=314&h=200&c=8&rs=1&qlt=90&o=6&dpr=1.2&pid=3.1&rm=2",
     Previewlink: "https://carzones.vercel.app",
     Githublink: "https://github.com/freshpex/cars",
+  },
+  {
+    title: "Interactive Rewards Dashboard",
+    cardImage: "assets/images/project-page/p2.png",
+    description: "Dynamic rewards tracking system featuring real-time earnings updates, cashback history, and multiple redemption options.",
+    tagimg: "https://th.bing.com/th/id/OIP.D2T6uVGU3Jp3is8cguPhNwHaFk?w=219&h=180&c=7&r=0&o=5&dpr=1.4&pid=1.7",
+    Previewlink: "https://reward-beryl.vercel.app/",
+    Githublink: "https://github.com/freshpex/Reward",
+  },
+  {
+    title: "Smart Travel Planner Suite",
+    cardImage: "assets/images/project-page/p3.png",
+    description: "Comprehensive travel planning tool integrating multiple APIs for real-time hotel bookings, attraction discovery, and weather forecasting.",
+    tagimg: "https://cdn.iconscout.com/icon/free/png-512/react-1-282599.png",
+    Previewlink: "https://travel-planner-two.vercel.app/",
+    Githublink: "https://github.com/freshpex/Travel-planner",
+  },
+  {
+    title: "AI-Powered Tic Tac Toe",
+    cardImage: "assets/images/project-page/tic-tac-toe.png",
+    description: "Advanced implementation of the classic game using MiniMax Algorithm for unbeatable AI opponent.",
+    tagimg: "https://cdn.iconscout.com/icon/free/png-512/react-1-282599.png",
+    Previewlink: "",
+    Githublink: "https://github.com/freshpex/minimax",
   }
 ];
 

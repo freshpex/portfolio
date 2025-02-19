@@ -1092,3 +1092,44 @@ outline: none;
     transform: scale(0) rotateZ(-90deg);
   }
 }
+
+.view-projects-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 12px 24px;
+  background: #ffffff;
+  color: #000000ba;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  border: 2px solid transparent;
+  box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.2);
+}
+
+.view-projects-btn:hover {
+  background: transparent;
+  border-color: #e0cafc;
+  color: #bb86fc;
+  transform: translateY(-3px);
+  text-decoration: none;
+  box-shadow: 10px 10px 5px rgb(255, 255, 255);
+}
+
+.animate-point {
+  animation: pointRight 1s infinite;
+}
+
+@keyframes pointRight {
+  0%, 100% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(5px);
+  }
+}
+
+.view-projects-btn:hover .animate-point {
+  animation-duration: 0.5s;
+}

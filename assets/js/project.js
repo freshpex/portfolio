@@ -11,7 +11,7 @@ const projects = [
     description: "E-commerce platform for construction equipment with advanced filtering, equipment comparison, and secure checkout.",
     tagimg: "https://cdn.iconscout.com/icon/free/png-512/react-1-282599.png",
     Previewlink: "https://tconstructor.onrender.com",
-    Githublink: "https://github.com/freshpex/Construction-Company-Site-Template/tree/main",
+    // Githublink: "https://github.com/freshpex/Construction-Company-Site-Template/tree/main",
   },
   {
     title: "Contractor Hiring Platform",
@@ -19,7 +19,7 @@ const projects = [
     description: "Platform connecting contractors with clients, featuring project bidding, contractor profiles, and review system.",
     tagimg: "https://cdn.iconscout.com/icon/free/png-512/react-1-282599.png",
     Previewlink: "https://econstruction.onrender.com",
-    Githublink: "https://github.com/freshpex/Construction-Website",
+    // Githublink: "https://github.com/freshpex/Construction-Website",
   },
   {
     title: "Fashion Designer",
@@ -27,7 +27,7 @@ const projects = [
     description: "Elegant portfolio website showcasing fashion collections, lookbooks, and booking system for consultations.",
     tagimg: "https://cdn.iconscout.com/icon/free/png-512/react-1-282599.png",
     Previewlink: "https://fashion-portfolio.vercel.app",
-    Githublink: "https://github.com/freshpex/fashion-portfolio",
+    // Githublink: "https://github.com/freshpex/fashion-portfolio",
   },
   {
     title: "Global Parcel Tracker",
@@ -35,7 +35,7 @@ const projects = [
     description: "Real-time package tracking system with global shipping calculator and delivery status notifications.",
     tagimg: "https://cdn.iconscout.com/icon/free/png-512/react-1-282599.png",
     Previewlink: "https://par-eight.vercel.app",
-    Githublink: "https://github.com/freshpex/parcel",
+    // Githublink: "https://github.com/freshpex/parcel",
   },
   {
     title: "Express Shipping Solutions",
@@ -43,7 +43,7 @@ const projects = [
     description: "Comprehensive shipping management system with rate comparison, label generation, and customs documentation.",
     tagimg: "https://cdn.iconscout.com/icon/free/png-512/react-1-282599.png",
     Previewlink: "https://franch-express.onrender.com/",
-    Githublink: "https://github.com/freshpex/Franch-Express-Courier",
+    // Githublink: "https://github.com/freshpex/Franch-Express-Courier",
   },
   {
     title: "Melodify - Music Streaming Platform",
@@ -51,7 +51,7 @@ const projects = [
     description: "Spotify-inspired music streaming application with personalized playlists, artist profiles, and social features.",
     tagimg: "https://cdn.iconscout.com/icon/free/png-512/react-1-282599.png",
     Previewlink: "https://music-two-ecru.vercel.app",
-    Githublink: "https://github.com/freshpex/music",
+    // Githublink: "https://github.com/freshpex/music",
   },
   {
     title: "Influence Hub",
@@ -59,7 +59,7 @@ const projects = [
     description: "Platform connecting brands with influencers, featuring campaign management, analytics, and payment processing.",
     tagimg: "https://cdn.iconscout.com/icon/free/png-512/react-1-282599.png",
     Previewlink: "https://influencer-gamma.vercel.app",
-    Githublink: "https://github.com/freshpex/influencer-marketing",
+    // Githublink: "https://github.com/freshpex/influencer-marketing",
   },
   {
     title: "Account Marketplace",
@@ -67,7 +67,7 @@ const projects = [
     description: "Secure social media account marketplace with escrow system, verification process, and transaction management.",
     tagimg: "https://cdn.iconscout.com/icon/free/png-512/react-1-282599.png",
     Previewlink: "https://scottech.vercel.app/",
-    Githublink: "https://github.com/freshpex/accountSalesFrontend",
+    // Githublink: "https://github.com/freshpex/accountSalesFrontend",
   },
   {
     title: "Secure Online Banking Platform",
@@ -75,7 +75,7 @@ const projects = [
     description: "A full-featured banking platform built with Flask, featuring secure transactions, account management, and real-time balance updates.",
     tagimg: "https://th.bing.com/th?id=OIP.1NAnYkHapE24GONDztTQGQHaFj&w=288&h=216&c=8&rs=1&qlt=90&o=6&dpr=1.2&pid=3.1&rm=2",
     Previewlink: "https://bdclient.vercel.app/",
-    Githublink: "https://github.com/freshpex/online-bank-of-bd-client-test/tree/master",
+    // Githublink: "https://github.com/freshpex/online-bank-of-bd-client-test/tree/master",
   },
   {
     title: "Utravel - Modern Flight Booking System",
@@ -83,7 +83,7 @@ const projects = [
     description: "A React-based flight booking platform with real-time search, interactive booking flow, and responsive design for seamless user experience.",
     tagimg: "https://cdn.iconscout.com/icon/free/png-512/react-1-282599.png",
     Previewlink: "https://airplaneutravel.vercel.app/",
-    Githublink: "https://github.com/freshpex/freshpex-airplane",
+    // Githublink: "https://github.com/freshpex/freshpex-airplane",
   },
   {
     title: "ML Stock Market Predictor",
@@ -91,7 +91,7 @@ const projects = [
     description: "Machine learning-powered platform for stock market analysis and prediction using advanced algorithms.",
     tagimg: "https://th.bing.com/th/id/OIP.fvrf00-2StWdCIH8QSVfqwHaF7?w=213&h=180&c=7&r=0&o=5&dpr=1.2&pid=1.7",
     Previewlink: "https://prediction-z6zg.onrender.com/",
-    Githublink: "https://github.com/freshpex/stock-prediction",
+    // Githublink: "https://github.com/freshpex/stock-prediction",
   },
   {
     title: "Digital Banking Solution",
@@ -99,7 +99,7 @@ const projects = [
     description: "Modern banking platform with Flask backend, featuring secure authentication, transaction management, and real-time account updates.",
     tagimg: "https://th.bing.com/th?id=OIP.1NAnYkHapE24GONDztTQGQHaFj&w=288&h=216&c=8&rs=1&qlt=90&o=6&dpr=1.2&pid=3.1&rm=2",
     Previewlink: "https://flask-bankist-web-app.onrender.com/",
-    Githublink: "https://github.com/freshpex/Bankist-Web-App",
+    // Githublink: "https://github.com/freshpex/Bankist-Web-App",
   },
   {
     title: "Bank Website",
@@ -107,7 +107,7 @@ const projects = [
     description: "Created a secure bank website using Flask for transactions and account management.",
     tagimg: "https://th.bing.com/th?id=OIP.1NAnYkHapE24GONDztTQGQHaFj&w=288&h=216&c=8&rs=1&qlt=90&o=6&dpr=1.2&pid=3.1&rm=2", // Bank tag image
     Previewlink: "https://flask-bankist-web-app.onrender.com/",
-    Githublink: "https://github.com/freshpex/Bankist-Web-App",
+    // Githublink: "https://github.com/freshpex/Bankist-Web-App",
   },
   {
     title: "Eudaimonia - Student Wellness Platform",
@@ -115,7 +115,7 @@ const projects = [
     description: "Comprehensive wellness application designed to help university students maintain healthy lifestyles through personalized tracking and recommendations.",
     tagimg: "https://th.bing.com/th/id/OIP.VpPAZs4kqQUh4OvnQaSndgHaE8?w=273&h=183&c=7&r=0&o=5&dpr=1.2&pid=1.7",
     Previewlink: "https://eudaimonia.onrender.com/",
-    Githublink: "https://github.com/iamfaqeehhokyky/Eudaimonia",
+    // Githublink: "https://github.com/iamfaqeehhokyky/Eudaimonia",
   },
   {
     title: "HealthCare Plus",
@@ -123,7 +123,7 @@ const projects = [
     description: "Comprehensive healthcare platform with appointment scheduling, patient records, and pharmacy management system.",
     tagimg: "https://cdn.iconscout.com/icon/free/png-512/react-1-282599.png",
     Previewlink: "https://youtu.be/E9DQf-_dwPw",
-    Githublink: "https://youtu.be/E9DQf-_dwPw",
+    // Githublink: "https://youtu.be/E9DQf-_dwPw",
   },
   {
     title: "Resturant",
@@ -131,7 +131,7 @@ const projects = [
     description: "Modern restaurant platform featuring online ordering, table reservations, and real-time kitchen management.",
     tagimg: "https://cdn.iconscout.com/icon/free/png-512/react-1-282599.png",
     Previewlink: "https://timskitchen4u.vercel.app",
-    Githublink: "https://github.com/freshpex/Test-Restuarant-App",
+    // Githublink: "https://github.com/freshpex/Test-Restuarant-App",
   },
   {
     title: "Cars Hub",
@@ -139,7 +139,7 @@ const projects = [
     description: "Advanced car dealership platform with vehicle listings, comparison tools, and financing calculator.",
     tagimg: "https://www.bing.com/th?id=OIP.sm2bWXumX-ih85YV7pEgYQHaEt&w=314&h=200&c=8&rs=1&qlt=90&o=6&dpr=1.2&pid=3.1&rm=2",
     Previewlink: "https://carzones.vercel.app",
-    Githublink: "https://github.com/freshpex/cars",
+    // Githublink: "https://github.com/freshpex/cars",
   },
   {
     title: "Interactive Rewards Dashboard",
@@ -147,7 +147,7 @@ const projects = [
     description: "Dynamic rewards tracking system featuring real-time earnings updates, cashback history, and multiple redemption options.",
     tagimg: "https://th.bing.com/th/id/OIP.D2T6uVGU3Jp3is8cguPhNwHaFk?w=219&h=180&c=7&r=0&o=5&dpr=1.4&pid=1.7",
     Previewlink: "https://reward-beryl.vercel.app/",
-    Githublink: "https://github.com/freshpex/Reward",
+    // Githublink: "https://github.com/freshpex/Reward",
   },
   {
     title: "Smart Travel Planner Suite",
@@ -155,14 +155,13 @@ const projects = [
     description: "Comprehensive travel planning tool integrating multiple APIs for real-time hotel bookings, attraction discovery, and weather forecasting.",
     tagimg: "https://cdn.iconscout.com/icon/free/png-512/react-1-282599.png",
     Previewlink: "https://travel-planner-two.vercel.app/",
-    Githublink: "https://github.com/freshpex/Travel-planner",
+    // Githublink: "https://github.com/freshpex/Travel-planner",
   },
   {
     title: "AI-Powered Tic Tac Toe",
     cardImage: "assets/images/project-page/tic-tac-toe.png",
     description: "Advanced implementation of the classic game using MiniMax Algorithm for unbeatable AI opponent.",
     tagimg: "https://cdn.iconscout.com/icon/free/png-512/react-1-282599.png",
-    Previewlink: "",
     Githublink: "https://github.com/freshpex/minimax",
   }
 ];

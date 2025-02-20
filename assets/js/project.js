@@ -98,7 +98,7 @@ const projects = [
     cardImage: "https://th.bing.com/th/id/OIP.zAAnpaDUPzK3uctbvLU82QHaEH?w=182&h=101&c=7&r=0&o=5&dpr=1.2&pid=1.7",
     description: "Modern banking platform with Flask backend, featuring secure authentication, transaction management, and real-time account updates.",
     tagimg: "https://th.bing.com/th?id=OIP.1NAnYkHapE24GONDztTQGQHaFj&w=288&h=216&c=8&rs=1&qlt=90&o=6&dpr=1.2&pid=3.1&rm=2",
-    Previewlink: "https://flask-bankist-web-app.onrender.com/",
+    Previewlink: "https://bankiste.vercel.app/",
     Githublink: "https://github.com/freshpex/Bankist-Web-App",
   },
   {
@@ -106,8 +106,8 @@ const projects = [
     cardImage: "assets/images/project-page/bankWeb.png",
     description: "Created a secure bank website using Flask for transactions and account management.",
     tagimg: "https://th.bing.com/th?id=OIP.1NAnYkHapE24GONDztTQGQHaFj&w=288&h=216&c=8&rs=1&qlt=90&o=6&dpr=1.2&pid=3.1&rm=2", // Bank tag image
-    Previewlink: "https://flask-bankist-web-app.onrender.com/",
-    Githublink: "https://github.com/freshpex/Bankist-Web-App",
+    Previewlink: "https://banklinees.vercel.app",
+    Githublink: "https://github.com/freshpex/Flask-Bank-line",
   },
   {
     title: "Eudaimonia - Student Wellness Platform",

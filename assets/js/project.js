@@ -10,7 +10,7 @@ const projects = [
     cardImage: "assets/images/project-page/construction1.png",
     description: "E-commerce platform for construction equipment with advanced filtering, equipment comparison, and secure checkout.",
     tagimg: "https://cdn.iconscout.com/icon/free/png-512/react-1-282599.png",
-    Previewlink: "https://tconstructor.onrender.com",
+    Previewlink: "https://touchconstructor.vercel.app",
     Githublink: "https://github.com/freshpex/Construction-Company-Site-Template/tree/main",
   },
   {
@@ -18,7 +18,7 @@ const projects = [
     cardImage: "assets/images/project-page/contractor.png",
     description: "Platform connecting contractors with clients, featuring project bidding, contractor profiles, and review system.",
     tagimg: "https://cdn.iconscout.com/icon/free/png-512/react-1-282599.png",
-    Previewlink: "https://econstruction.onrender.com",
+    Previewlink: "https://evomconstruction.vercel.app",
     Githublink: "https://github.com/freshpex/Construction-Website",
   },
   {
@@ -171,8 +171,8 @@ const showCards = () => {
   let output = "";
   projects.forEach(({ title, cardImage, Previewlink, Githublink }) => {
     output += `       
-      <div class="column skill-card card" style="margin: 15px"data-aos="zoom-in-up" data-aos-easing="linear" data-aos-delay="300" data-aos-duration="600" >
-        <div class="wrapper" style="background: url(${cardImage}) center / cover no-repeat; cursor: pointer;" onclick="window.location.href='${Previewlink}'">
+      <div class="column skill-card card" style="margin: 15px" data-aos="zoom-in-up" data-aos-easing="linear" data-aos-delay="300" data-aos-duration="600" >
+        <div class="wrapper" style="background: url(${cardImage}) center / cover no-repeat; cursor: pointer;">
         <div class="header">
         </div>
         <div class="data">

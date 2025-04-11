@@ -10,7 +10,7 @@ const projects = [
     cardImage: "assets/images/project-page/restaurant.png",
     description: "Modern restaurant platform featuring online ordering, table reservations, and real-time kitchen management.",
     tagimg: "https://cdn.iconscout.com/icon/free/png-512/react-1-282599.png",
-    Previewlink: "https://timskitchen4u.vercel.app",
+    Previewlink: "https://preview-timskitchen.vercel.app",
     Githublink: "https://github.com/freshpex/timkitchenFrontend ",
   },
   {
